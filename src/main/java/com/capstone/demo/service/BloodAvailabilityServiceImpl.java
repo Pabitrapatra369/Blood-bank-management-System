@@ -86,7 +86,7 @@ public class BloodAvailabilityServiceImpl implements BloodAvailabilityService {
 
 		List<BloodAvailability> bloodDetails = bloodAvailabilityRepository.findByBloodGroup(bloodGroup.toUpperCase());
 
-		if (bloodDetails != null) {
+		if (bloodDetails != null && bloodDetails.size() > 0) {
 			return bloodDetails;
 		} else {
 			throw new BloodNotAvailabilityException("Blood not available based on this blood group " + bloodGroup);

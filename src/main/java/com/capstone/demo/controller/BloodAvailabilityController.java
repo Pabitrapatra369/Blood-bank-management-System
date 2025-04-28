@@ -65,7 +65,8 @@ public class BloodAvailabilityController {
 	}
 
 	@GetMapping(value = "/getBloodDetailsBasedOnBloodGroup/{blood}")
-	public ResponseEntity<List<BloodAvailability>> getBloodDetailsBasedOnBloodGroup(@PathVariable String blood) {
+	public ResponseEntity<List<BloodAvailability>> getBloodDetailsBasedOnBloodGroup(@PathVariable String blood)
+			throws BloodNotAvailabilityException {
 		logger.info("Blood group controller method invoce   " + blood);
 		List<BloodAvailability> bloodDetailsBasedOngroup = bloodAvailabilityServiceImpl
 				.getBloodDetailsBasedOnBloodGroup(blood);

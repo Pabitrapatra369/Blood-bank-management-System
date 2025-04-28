@@ -427,3 +427,229 @@
 2025-04-28T11:59:15.601+05:30  INFO 25844 --- [Blood_bank_management_Demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
 2025-04-28T11:59:15.611+05:30  INFO 25844 --- [Blood_bank_management_Demo] [restartedMain] c.c.d.BloodBankManagementDemoApplication : Started BloodBankManagementDemoApplication in 2.396 seconds (process running for 6593.117)
 2025-04-28T11:59:15.615+05:30  INFO 25844 --- [Blood_bank_management_Demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-28T12:38:33.344+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] c.c.d.BloodBankManagementDemoApplication : Starting BloodBankManagementDemoApplication using Java 17.0.12 with PID 20096 (C:\blood_bank_management_system\blood_bank_management_system 4\blood_bank_management_system\target\classes started by pabitrakumar.patra in C:\blood_bank_management_system\blood_bank_management_system 4\blood_bank_management_system)
+2025-04-28T12:38:33.346+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] c.c.d.BloodBankManagementDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-04-28T12:38:33.384+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-28T12:38:33.384+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-28T12:38:34.378+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-28T12:38:34.487+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 5 JPA repository interfaces.
+2025-04-28T12:38:35.013+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-04-28T12:38:35.023+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-28T12:38:35.024+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-28T12:38:35.116+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-28T12:38:35.117+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1731 ms
+2025-04-28T12:38:35.253+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-28T12:38:35.296+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-28T12:38:35.330+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-28T12:38:35.631+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-28T12:38:35.660+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-28T12:38:35.928+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76d4c508
+2025-04-28T12:38:35.932+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-28T12:38:36.007+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.26
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-28T12:38:36.901+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-28T12:38:37.312+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-28T12:38:37.489+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-28T12:38:37.800+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-28T12:38:37.801+05:30  WARN 20096 --- [Blood_bank_management_Demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-28T12:38:37.892+05:30  WARN 20096 --- [Blood_bank_management_Demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-28T12:38:38.225+05:30  WARN 20096 --- [Blood_bank_management_Demo] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-04-28T12:38:38.449+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-28T12:38:38.508+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-04-28T12:38:38.520+05:30  INFO 20096 --- [Blood_bank_management_Demo] [restartedMain] c.c.d.BloodBankManagementDemoApplication : Started BloodBankManagementDemoApplication in 5.551 seconds (process running for 7.527)
+2025-04-28T12:40:01.893+05:30  INFO 20096 --- [Blood_bank_management_Demo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-28T12:40:01.893+05:30  INFO 20096 --- [Blood_bank_management_Demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-28T12:40:01.896+05:30  INFO 20096 --- [Blood_bank_management_Demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-04-28T12:40:03.073+05:30  INFO 20096 --- [Blood_bank_management_Demo] [http-nio-9090-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 788 ms
+2025-04-28T13:21:54.832+05:30  INFO 20096 --- [Blood_bank_management_Demo] [RMI TCP Connection(47)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-28T13:21:54.848+05:30  INFO 20096 --- [Blood_bank_management_Demo] [RMI TCP Connection(47)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-28T13:22:07.445+05:30  INFO 20096 --- [Blood_bank_management_Demo] [RMI TCP Connection(48)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-28T13:22:07.448+05:30  WARN 20096 --- [Blood_bank_management_Demo] [RMI TCP Connection(47)-127.0.0.1] org.apache.tomcat.util.net.Acceptor      : Interrupt was received while waiting for the acceptor thread [http-nio-9090-Acceptor] to stop
+
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1081) ~[na:na]
+	at java.base/java.util.concurrent.CountDownLatch.await(CountDownLatch.java:276) ~[na:na]
+	at org.apache.tomcat.util.net.Acceptor.stopMillis(Acceptor.java:187) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint.stopInternal(NioEndpoint.java:304) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.AbstractEndpoint.stop(AbstractEndpoint.java:1432) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol.stop(AbstractProtocol.java:723) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1099) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardService.removeConnector(StandardService.java:299) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.lambda$removeServiceConnectors$1(TomcatWebServer.java:173) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.doWithConnectors(TomcatWebServer.java:192) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.removeServiceConnectors(TomcatWebServer.java:170) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.stop(TomcatWebServer.java:358) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.stop(WebServerStartStopLifecycle.java:53) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.context.SmartLifecycle.stop(SmartLifecycle.java:120) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStop(DefaultLifecycleProcessor.java:384) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.stop(DefaultLifecycleProcessor.java:526) ~[spring-context-6.2.5.jar:6.2.5]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:353) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:253) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1172) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179) ~[spring-boot-3.4.4.jar:3.4.4]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126) ~[spring-context-6.2.5.jar:6.2.5]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-3.4.4.jar:3.4.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405) ~[na:na]
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712) ~[na:na]
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[na:na]
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-04-28T13:22:07.679+05:30  INFO 20096 --- [Blood_bank_management_Demo] [RMI TCP Connection(47)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-28T13:22:07.691+05:30  INFO 20096 --- [Blood_bank_management_Demo] [RMI TCP Connection(47)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-28T13:22:07.811+05:30  INFO 20096 --- [Blood_bank_management_Demo] [RMI TCP Connection(47)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-28T13:30:25.387+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] c.c.d.BloodBankManagementDemoApplication : Starting BloodBankManagementDemoApplication using Java 17.0.12 with PID 16436 (C:\blood_bank_management_system\blood_bank_management_system 4\blood_bank_management_system\target\classes started by pabitrakumar.patra in C:\blood_bank_management_system\blood_bank_management_system 4\blood_bank_management_system)
+2025-04-28T13:30:25.397+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] c.c.d.BloodBankManagementDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-04-28T13:30:25.932+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-28T13:30:25.934+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-28T13:30:32.792+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-28T13:30:33.378+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 534 ms. Found 5 JPA repository interfaces.
+2025-04-28T13:30:37.107+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-04-28T13:30:37.229+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-28T13:30:37.231+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-28T13:30:37.948+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-28T13:30:37.950+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11977 ms
+2025-04-28T13:30:39.172+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-28T13:30:42.750+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-28T13:30:43.440+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-28T13:30:50.072+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-28T13:30:50.433+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-28T13:30:54.018+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bb2a5d8
+2025-04-28T13:30:54.035+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-28T13:30:56.600+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.26
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-28T13:31:04.387+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-28T13:31:04.818+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-28T13:31:06.232+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-28T13:31:08.070+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-28T13:31:08.072+05:30  WARN 16436 --- [Blood_bank_management_Demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-28T13:31:08.659+05:30  WARN 16436 --- [Blood_bank_management_Demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-28T13:31:10.707+05:30  WARN 16436 --- [Blood_bank_management_Demo] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-04-28T13:31:12.058+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-28T13:31:12.339+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-04-28T13:31:12.398+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] c.c.d.BloodBankManagementDemoApplication : Started BloodBankManagementDemoApplication in 50.012 seconds (process running for 65.773)
+2025-04-28T13:32:29.006+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-28T13:32:29.007+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-28T13:32:29.016+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2025-04-28T13:32:34.086+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 3402 ms
+2025-04-28T13:38:14.011+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-7] c.c.d.controller.UserDetailsController   : eamil : pabitra@gmail.com password :123
+2025-04-28T13:38:40.536+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-6] c.c.d.c.RequesterDetailsController       : Cusor enter in to getReqeustDetailsById controller 1
+2025-04-28T13:38:40.537+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-6] c.c.d.s.RequesterDetailsServiceImpl      : Cursor Enter in to DgetReqeustDetailsById inside service ====>  1
+2025-04-28T13:39:12.339+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-1] c.c.d.c.BloodAvailabilityController      : Blood group controller method invoke   
+2025-04-28T13:39:32.391+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-4] c.c.d.c.BloodAvailabilityController      : Blood group controller method invoce   pune
+2025-04-28T13:39:32.392+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-4] c.c.d.service.BloodAvailabilityService   : Blood Service getBloodDetailsBasedOnCity invoked ...!
+2025-04-28T13:40:17.334+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-5] c.c.d.c.BloodAvailabilityController      : Blood group controller method invoce   pune   null
+2025-04-28T13:40:17.335+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-5] c.c.d.service.BloodAvailabilityService   : Blood Service getBloodDetails invoked ...!
+2025-04-28T13:40:33.402+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-8] c.c.d.c.BloodAvailabilityController      : Blood group controller method invoce   pune   null
+2025-04-28T13:40:33.402+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-8] c.c.d.service.BloodAvailabilityService   : Blood Service getBloodDetails invoked ...!
+2025-04-28T13:40:33.422+05:30  WARN 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.capstone.demo.exception.BloodNotAvailabilityException: Blood not available based on this citypune and blood group  B+]
+2025-04-28T13:40:55.757+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-9] c.c.d.c.BloodAvailabilityController      : Blood group controller method invoce   B+
+2025-04-28T13:40:55.757+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-9] c.c.d.service.BloodAvailabilityService   : Blood Service getBloodDetailsBasedOnBloodGroup invoked ...!
+2025-04-28T13:41:28.559+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-10] c.c.d.c.BloodAvailabilityController      : Blood group controller method invoce   O+
+2025-04-28T13:41:28.560+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-10] c.c.d.service.BloodAvailabilityService   : Blood Service getBloodDetailsBasedOnBloodGroup invoked ...!
+2025-04-28T13:41:35.550+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-2] c.c.d.c.BloodAvailabilityController      : Blood group controller method invoce   AB+
+2025-04-28T13:41:35.550+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-2] c.c.d.service.BloodAvailabilityService   : Blood Service getBloodDetailsBasedOnBloodGroup invoked ...!
+2025-04-28T13:43:30.803+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-3] c.c.d.c.BloodAvailabilityController      : Blood group controller method invoce   AB+
+2025-04-28T13:43:30.804+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-3] c.c.d.service.BloodAvailabilityService   : Blood Service getBloodDetailsBasedOnBloodGroup invoked ...!
+2025-04-28T13:44:33.047+05:30  INFO 16436 --- [Blood_bank_management_Demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-28T13:44:33.053+05:30  INFO 16436 --- [Blood_bank_management_Demo] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-28T13:44:33.477+05:30  INFO 16436 --- [Blood_bank_management_Demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-28T13:44:33.487+05:30  INFO 16436 --- [Blood_bank_management_Demo] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-28T13:44:33.501+05:30  INFO 16436 --- [Blood_bank_management_Demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-28T13:44:33.550+05:30  INFO 16436 --- [Blood_bank_management_Demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-28T13:44:33.725+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] c.c.d.BloodBankManagementDemoApplication : Starting BloodBankManagementDemoApplication using Java 17.0.12 with PID 16436 (C:\blood_bank_management_system\blood_bank_management_system 4\blood_bank_management_system\target\classes started by pabitrakumar.patra in C:\blood_bank_management_system\blood_bank_management_system 4\blood_bank_management_system)
+2025-04-28T13:44:33.726+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] c.c.d.BloodBankManagementDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-04-28T13:44:34.282+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-28T13:44:34.364+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 5 JPA repository interfaces.
+2025-04-28T13:44:34.548+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2025-04-28T13:44:34.549+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-28T13:44:34.550+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-28T13:44:34.654+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-28T13:44:34.655+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 926 ms
+2025-04-28T13:44:34.745+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-28T13:44:34.752+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-28T13:44:34.770+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-28T13:44:34.772+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-04-28T13:44:34.842+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e0df5ab
+2025-04-28T13:44:34.843+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-04-28T13:44:34.846+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.26
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-28T13:44:35.164+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-28T13:44:35.213+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-28T13:44:35.534+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-04-28T13:44:35.535+05:30  WARN 16436 --- [Blood_bank_management_Demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-04-28T13:44:35.606+05:30  WARN 16436 --- [Blood_bank_management_Demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-28T13:44:35.753+05:30  WARN 16436 --- [Blood_bank_management_Demo] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-04-28T13:44:35.809+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-28T13:44:35.837+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path '/'
+2025-04-28T13:44:35.842+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] c.c.d.BloodBankManagementDemoApplication : Started BloodBankManagementDemoApplication in 2.165 seconds (process running for 869.218)
+2025-04-28T13:44:35.844+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-28T13:44:48.151+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-28T13:44:48.152+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-28T13:44:48.154+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-28T13:44:48.233+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-1] c.c.d.c.BloodAvailabilityController      : Blood group controller method invoce   AB+
+2025-04-28T13:44:48.233+05:30  INFO 16436 --- [Blood_bank_management_Demo] [http-nio-9090-exec-1] c.c.d.service.BloodAvailabilityService   : Blood Service getBloodDetailsBasedOnBloodGroup invoked ...!
+2025-04-28T13:45:36.035+05:30  INFO 16436 --- [Blood_bank_management_Demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-28T13:45:36.036+05:30  INFO 16436 --- [Blood_bank_management_Demo] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-28T13:45:36.275+05:30  INFO 16436 --- [Blood_bank_management_Demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-28T13:45:36.280+05:30  INFO 16436 --- [Blood_bank_management_Demo] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-28T13:45:36.281+05:30  INFO 16436 --- [Blood_bank_management_Demo] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-04-28T13:45:36.318+05:30  INFO 16436 --- [Blood_bank_management_Demo] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-04-28T13:45:36.488+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] c.c.d.BloodBankManagementDemoApplication : Starting BloodBankManagementDemoApplication using Java 17.0.12 with PID 16436 (C:\blood_bank_management_system\blood_bank_management_system 4\blood_bank_management_system\target\classes started by pabitrakumar.patra in C:\blood_bank_management_system\blood_bank_management_system 4\blood_bank_management_system)
+2025-04-28T13:45:36.489+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] c.c.d.BloodBankManagementDemoApplication : No active profile set, falling back to 1 default profile: "default"
+2025-04-28T13:45:36.962+05:30  INFO 16436 --- [Blood_bank_management_Demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
